@@ -2,12 +2,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Helvetica', Arial, sans-serif;
+    font-family: 'Helvetica', Helevicta, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #002663; /* Update to your blue */
+    background-color: #004080; /* Update to your blue */
     color: white;
     padding: 10px 0;
 }
@@ -40,7 +40,7 @@ main {
 }
 
 footer {
-    background-color: #002663; /* Update to blue */
+    background-color: #004080; /* Update to blue */
     color: white;
     text-align: center;
     padding: 10px 0;
