@@ -1,6 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px; /* Add margin to the body for spacing */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Helvetica', Arial, sans-serif;
+    margin: 0;
 }
 
 header {
@@ -31,6 +34,7 @@ nav ul li a {
 }
 
 main {
+    flex: 1;
     margin: 20px; /* Add margin to main content for spacing */
     padding: 20px; /* Add padding to main content for spacing */
 }
@@ -40,7 +44,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
