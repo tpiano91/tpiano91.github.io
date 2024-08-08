@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #001a33; /* Darker blue for header */
+    background-color: #002147; /* Oxford Blue for header */
     color: white;
     padding: 10px 0;
 }
@@ -45,7 +45,7 @@ main {
 }
 
 footer {
-    background-color: #001a33; /* Darker blue for footer */
+    background-color: #002147; /* Oxford Blue for footer */
     color: white;
     text-align: center;
     padding: 10px 0;
