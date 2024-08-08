@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #002663; /* indigo */
+    background-color: #002663; /* Update to your blue */
     color: white;
     padding: 10px 0;
 }
@@ -36,7 +36,7 @@ main {
 }
 
 footer {
-    background-color: #002663; /* indigo */
+    background-color: #002663; /* Update to blue */
     color: white;
     text-align: center;
     padding: 10px 0;
