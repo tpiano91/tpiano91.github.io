@@ -15,7 +15,8 @@ header {
 
 main {
     flex: 1 0 auto;
-    margin-bottom: 50px; /* Ensure there's enough space at the bottom */
+    margin-bottom: 20px; /* Adjusted to ensure footer doesn't overlap text */
+    padding-bottom: 20px; /* Ensure there's enough space between content and footer */
 }
 
 .header-container {
@@ -152,7 +153,7 @@ footer {
     width: 100%;
     flex-shrink: 0; /* Prevent the footer from shrinking */
     position: relative; /* Ensure the footer stays at the bottom of the content */
-    bottom: 0;
+    margin-top: auto;
 }
 
 /* Specific styles for the contact page */
