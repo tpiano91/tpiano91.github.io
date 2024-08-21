@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px; /* Increased padding for larger header */
     background-color: #002147; /* Oxford Blue for header */
 }
 
@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: 'Merriweather', serif;
     font-weight: 400; /* Lighter font-weight for header */
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 28px; /* Increased size */
 }
 
 .nav-right ul {
@@ -51,6 +51,7 @@ body {
     background-color: #004594; /* Different blue background */
     text-align: center;
     padding: 20px;
+    width: 100%;
 }
 
 .welcome-section h2 {
@@ -60,24 +61,43 @@ body {
     font-weight: 400;
 }
 
-.welcome-image {
-    display: block;
-    margin: 0 auto 20px auto;
-    max-width: 400px;
-    height: auto;
-}
-
 .content-section {
     background-color: #f7f7f7; /* Light grey background */
     padding: 20px;
     text-align: center;
 }
 
+.welcome-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 400px;
+    height: auto;
+}
+
+.projects-section {
+    background-color: #004594; /* Matching blue background */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.projects-section h2 {
+    margin-top: 0;
+}
+
+.projects-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects-section ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
 main {
     flex: 1;
-    margin: 20px; /* Add margin */
-    padding: 20px; /* Add margin */
-    padding-bottom: 50px; /* Extra padding at the bottom to create space above the footer */
+    padding-bottom: 80px; /* Increased padding at the bottom to create more space above the footer */
 }
 
 footer {
