@@ -41,6 +41,11 @@ body {
     color: white;
     text-decoration: none;
     font-size: 16px; /* Slightly smaller text for navigation links */
+    transition: color 0.3s ease;
+}
+
+.nav-right ul li a:hover {
+    color: #cccccc; /* Slight color change on hover */
 }
 
 .nav-right ul li img {
@@ -118,4 +123,17 @@ body {
 }
 
 .project-card a:hover {
-    background-color: #002147
+    background-color: #002147;
+}
+
+footer {
+    background-color: #002147; /* Oxford Blue to match the header */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 50px; /* Add margin to create space between the final text and footer */
+    position: relative; /* Ensure the footer stays at the bottom of the content */
+    bottom: 0;
+}
+
