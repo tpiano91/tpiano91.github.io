@@ -134,13 +134,14 @@ body {
     background-color: #002147;
 }
 
+/* Ensuring the footer stays at the bottom without a white gap */
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
     color: #e6e6e6; /* Lighter grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: 50px; /* Ensure there's enough space between content and footer */
+    margin-top: auto; /* Allows the footer to push down with content */
     position: relative; /* Ensure the footer stays at the bottom of the content */
     bottom: 0;
 }
