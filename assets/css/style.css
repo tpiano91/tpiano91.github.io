@@ -21,8 +21,8 @@ body {
     margin: 0;
     color: #e6e6e6; /* Light grey for the header text */
     font-family: 'Merriweather', serif;
-    font-weight: 700; /* Increase font-weight for thicker header */
-    font-size: 24px; /* Adjust the size as needed */
+    font-weight: 900; /* Increase font-weight for thicker header */
+    font-size: 30px; /* Adjust the size as needed */
 }
 
 .nav-right ul {
