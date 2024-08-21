@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: 'Merriweather', serif;
     font-weight: 700; /* Increase font-weight for thicker header */
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 30px; /* Adjust the size as needed */
 }
 
 .nav-right ul {
@@ -63,6 +63,13 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 400;
+}
+
+/* Darker grey background for the section with the image and introductory text */
+.darker-content-section {
+    background-color: #e0e0e0; /* Slightly darker grey */
+    padding: 20px;
+    text-align: center;
 }
 
 .content-section {
@@ -136,4 +143,3 @@ footer {
     position: relative; /* Ensure the footer stays at the bottom of the content */
     bottom: 0;
 }
-
