@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: 'Merriweather', serif;
     font-weight: 700; /* Increase font-weight for thicker header */
-    font-size: 30px; /* Adjust the size as needed */
+    font-size: 24px; /* Adjust the size as needed */
 }
 
 .nav-right ul {
@@ -56,6 +56,9 @@ body {
     background-color: #004594; /* Different blue background */
     text-align: center;
     padding: 20px;
+    margin: 20px auto; /* Center the block */
+    max-width: 80%; /* Adjust the width of the blue section */
+    border-radius: 8px; /* Add rounded corners */
 }
 
 .welcome-section h2 {
