@@ -59,7 +59,7 @@ body {
 }
 
 .welcome-section h2 {
-    color: #e6e6e6; /* Light grey for text inside blocks */
+    color: #d3d3d3; /* Lightest grey for the text */
     margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -128,11 +128,11 @@ body {
 
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
-    color: #e6e6e6; /* Light grey for footer text */
+    color: #e6e6e6; /* Lighter grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: 50px; /* Add margin to create space between the final text and footer */
+    margin-top: 50px; /* Ensure there's enough space between content and footer */
     position: relative; /* Ensure the footer stays at the bottom of the content */
     bottom: 0;
 }
