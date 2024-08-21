@@ -65,8 +65,15 @@ body {
     font-weight: 400;
 }
 
+/* Slightly darker grey background for the darker content section */
+.darker-content-section {
+    background-color: #e0e0e0; /* Slightly darker grey */
+    padding: 20px;
+    text-align: center;
+}
+
 .content-section {
-    background-color: #f0f0f0; /* Slightly darker grey background */
+    background-color: #f0f0f0; /* Slightly lighter grey background */
     padding: 20px;
     text-align: center;
 }
