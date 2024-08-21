@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     font-family: 'PT Serif', serif;
     margin: 0;
-    background-color: #e0e0e0; /* Slightly darker grey background */
+    background-color: #f7f7f7; /* Very light grey background */
 }
 
 .header-container {
@@ -19,7 +19,7 @@ body {
 
 .title-left h1 {
     margin: 0;
-    color: white;
+    color: #e6e6e6; /* Light grey for the header text */
     font-family: 'Merriweather', serif;
     font-weight: 700; /* Increase font-weight for thicker header */
     font-size: 24px; /* Adjust the size as needed */
@@ -38,7 +38,7 @@ body {
 }
 
 .nav-right ul li a {
-    color: white;
+    color: #e6e6e6; /* Light grey for the nav links */
     text-decoration: none;
     font-size: 16px; /* Slightly smaller text for navigation links */
     transition: color 0.3s ease;
@@ -53,23 +53,20 @@ body {
 }
 
 .welcome-section {
-    background-color: #004594; /* Different blue background */
+    background-color: #4760a6; /* Updated blue background */
     text-align: center;
     padding: 20px;
-    margin: 20px auto; /* Center the block */
-    max-width: 80%; /* Adjust the width of the blue section */
-    border-radius: 8px; /* Add rounded corners */
 }
 
-/* Darker grey background for the section with the image and introductory text */
-.darker-content-section {
-    background-color: #e0e0e0; /* Slightly darker grey */
-    padding: 20px;
-    text-align: center;
+.welcome-section h2 {
+    color: #e6e6e6; /* Light grey for text inside blocks */
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
 }
 
 .content-section {
-    background-color: #e0e0e0; /* Slightly darker grey */
+    background-color: #f0f0f0; /* Slightly darker grey background */
     padding: 20px;
     text-align: center;
 }
@@ -119,7 +116,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background-color: #004594; /* Button background color */
-    color: white;
+    color: #e6e6e6; /* Light grey text for buttons */
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
@@ -131,7 +128,7 @@ body {
 
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
-    color: white;
+    color: #e6e6e6; /* Light grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
