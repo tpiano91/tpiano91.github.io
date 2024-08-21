@@ -15,6 +15,7 @@ header {
 
 main {
     flex: 1 0 auto;
+    margin-bottom: 50px; /* Ensure there's enough space at the bottom */
 }
 
 .header-container {
@@ -151,6 +152,7 @@ footer {
     width: 100%;
     flex-shrink: 0; /* Prevent the footer from shrinking */
     position: relative; /* Ensure the footer stays at the bottom of the content */
+    bottom: 0;
 }
 
 /* Specific styles for the contact page */
@@ -195,4 +197,10 @@ footer {
 
 .contact-container .contact-form input[type="submit"]:hover {
     background-color: #002147;
+}
+
+/* Ensure the footer stays at the bottom on the Contact page */
+.contact-page main {
+    flex: 1 0 auto;
+    margin-bottom: 0;
 }
