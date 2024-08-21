@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Increased padding for larger header */
+    padding: 10px 20px;
     background-color: #002147; /* Oxford Blue for header */
 }
 
@@ -22,7 +22,7 @@ body {
     color: white;
     font-family: 'Merriweather', serif;
     font-weight: 400; /* Lighter font-weight for header */
-    font-size: 28px; /* Increased size */
+    font-size: 24px; /* Adjust the size as needed */
 }
 
 .nav-right ul {
@@ -51,7 +51,6 @@ body {
     background-color: #004594; /* Different blue background */
     text-align: center;
     padding: 20px;
-    width: 100%;
 }
 
 .welcome-section h2 {
@@ -67,36 +66,56 @@ body {
     text-align: center;
 }
 
-.welcome-image {
-    display: block;
-    margin: 20px auto;
-    max-width: 400px;
-    height: auto;
-}
-
-.projects-section {
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
     text-align: center;
-    color: black; /* Ensures text is black */
+    padding: 20px;
+    transition: transform 0.3s ease;
 }
 
-.project-list {
-    list-style: disc inside; /* Align bullet points with text */
-    padding: 0;
-    text-align: left; /* Align the list text to the left */
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
-main {
-    flex: 1;
-    padding-bottom: 80px; /* Increased padding at the bottom to create more space above the footer */
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
 }
 
-footer {
-    background-color: #002147; /* Oxford Blue for footer */
+.project-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #002147; /* Oxford Blue */
+}
+
+.project-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004594; /* Button background color */
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
+
+.project-card a:hover {
+    background-color: #002147
