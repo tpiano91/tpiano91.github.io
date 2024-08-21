@@ -48,7 +48,7 @@ body {
 }
 
 .welcome-section {
-    background-color: #004080; /* Slightly lighter blue background */
+    background-color: #00509E; /* Different blue background */
     text-align: center;
     padding: 20px;
 }
@@ -61,9 +61,10 @@ body {
 }
 
 .welcome-image {
+    display: block;
+    margin: 0 auto 20px auto;
     max-width: 400px;
     height: auto;
-    margin: 20px 0;
 }
 
 .content-section {
