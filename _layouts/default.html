@@ -8,15 +8,24 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
-        <nav>
-            <ul>
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/portfolio.html">Portfolio</a></li>
-                <li><a href="{{ site.baseurl }}/about.html">About Me</a></li>
-                <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-container">
+            <div class="title-left">
+                <h1>Dr. Tristan Savella: Data Analyst</h1>
+            </div>
+            <nav class="nav-right">
+                <ul>
+                    <li><a href="{{ site.baseurl }}/">Portfolio</a></li>
+                    <li><a href="{{ site.baseurl }}/about.html">About Me</a></li>
+                    <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/tristansavella/" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/icons/linkedin.png" alt="LinkedIn" style="width:24px; height:auto;">
+                    </a></li>
+                    <li><a href="https://github.com/tpiano91" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/icons/github.png" alt="GitHub" style="width:24px; height:auto;">
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         {{ content }}
