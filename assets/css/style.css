@@ -9,16 +9,6 @@ body {
     background-color: #f7f7f7; /* Very light grey background */
 }
 
-header {
-    flex-shrink: 0;
-}
-
-main {
-    flex: 1 0 auto;
-    margin-bottom: 20px; /* Adjusted to ensure footer doesn't overlap text */
-    padding-bottom: 20px; /* Ensure there's enough space between content and footer */
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -144,16 +134,15 @@ main {
     background-color: #002147;
 }
 
-/* Footer styles */
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
     color: #e6e6e6; /* Lighter grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    flex-shrink: 0; /* Prevent the footer from shrinking */
+    margin-top: 50px; /* Ensure there's enough space between content and footer */
     position: relative; /* Ensure the footer stays at the bottom of the content */
-    margin-top: auto;
+    bottom: 0;
 }
 
 /* Specific styles for the contact page */
@@ -198,10 +187,4 @@ footer {
 
 .contact-container .contact-form input[type="submit"]:hover {
     background-color: #002147;
-}
-
-/* Ensure the footer stays at the bottom on the Contact page */
-.contact-page main {
-    flex: 1 0 auto;
-    margin-bottom: 0;
 }
