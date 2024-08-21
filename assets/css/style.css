@@ -134,14 +134,49 @@ body {
     background-color: #002147;
 }
 
-/* Ensuring the footer stays at the bottom without a white gap */
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
     color: #e6e6e6; /* Lighter grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    margin-top: auto; /* Allows the footer to push down with content */
+    margin-top: 50px; /* Ensure there's enough space between content and footer */
     position: relative; /* Ensure the footer stays at the bottom of the content */
     bottom: 0;
+}
+
+/* Specific styles for the contact page */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap; /* Ensure layout is responsive */
+}
+
+.contact-container .contact-text,
+.contact-container .contact-form {
+    width: 48%;
+    min-width: 300px; /* Ensure it scales properly on smaller screens */
+}
+
+.contact-container .contact-form input,
+.contact-container .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.contact-container .contact-form input[type="submit"] {
+    background-color: #004594;
+    color: #e6e6e6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-container .contact-form input[type="submit"]:hover {
+    background-color: #002147;
 }
