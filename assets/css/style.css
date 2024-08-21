@@ -75,8 +75,8 @@ body {
 
 main {
     flex: 1;
-    margin: 20; /* Add margin */
-    padding: 20; /* Add margin */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add margin */
     padding-bottom: 50px; /* Extra padding at the bottom to create space above the footer */
 }
 
