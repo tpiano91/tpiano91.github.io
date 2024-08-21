@@ -75,24 +75,15 @@ body {
 }
 
 .projects-section {
-    background-color: #004594; /* Matching blue background */
     padding: 20px;
     text-align: center;
-    color: white;
+    color: black; /* Ensures text is black */
 }
 
-.projects-section h2 {
-    margin-top: 0;
-}
-
-.projects-section ul {
-    list-style: none;
+.project-list {
+    list-style: disc inside; /* Align bullet points with text */
     padding: 0;
-}
-
-.projects-section ul li {
-    margin-bottom: 15px;
-    font-size: 16px;
+    text-align: left; /* Align the list text to the left */
 }
 
 main {
