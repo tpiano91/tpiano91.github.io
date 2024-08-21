@@ -69,7 +69,7 @@ main {
 }
 
 .welcome-section h2 {
-    color: #e6e6e6; /* Lightest grey for the text */
+    color: #f8f8f8; /* Lightest grey for the text */
     margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 400;
