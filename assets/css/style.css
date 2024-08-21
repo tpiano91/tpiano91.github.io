@@ -159,6 +159,14 @@ footer {
     min-width: 300px; /* Ensure it scales properly on smaller screens */
 }
 
+.contact-container .contact-form {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background for the form */
+}
+
 .contact-container .contact-form input,
 .contact-container .contact-form textarea {
     width: 100%;
