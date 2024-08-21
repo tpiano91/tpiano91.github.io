@@ -9,6 +9,14 @@ body {
     background-color: #f7f7f7; /* Very light grey background */
 }
 
+header {
+    flex-shrink: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -134,16 +142,15 @@ body {
     background-color: #002147;
 }
 
-/* Footer styles to ensure it stays at the bottom */
+/* Footer styles */
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
     color: #e6e6e6; /* Lighter grey for footer text */
     text-align: center;
     padding: 10px 0;
     width: 100%;
-    position: fixed; /* Ensures the footer stays at the bottom */
-    bottom: 0;
-    left: 0;
+    flex-shrink: 0; /* Prevent the footer from shrinking */
+    position: relative; /* Ensure the footer stays at the bottom of the content */
 }
 
 /* Specific styles for the contact page */
