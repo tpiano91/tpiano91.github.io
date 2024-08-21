@@ -9,39 +9,73 @@ body {
     background-color: #f7f7f7; /* Very light grey background */
 }
 
-header {
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     background-color: #002147; /* Oxford Blue for header */
-    color: white;
-    padding: 10px 0;
 }
 
-header h1 {
+.title-left h1 {
     margin: 0;
-    text-align: center;
+    color: white;
     font-family: 'Merriweather', serif;
     font-weight: 400; /* Lighter font-weight for header */
+    font-size: 24px; /* Adjust the size as needed */
 }
 
-nav ul {
-    list-style-type: none;
+.nav-right ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
+.nav-right ul li {
+    margin-left: 20px;
 }
 
-nav ul li a {
+.nav-right ul li a {
     color: white;
     text-decoration: none;
+    font-size: 16px; /* Slightly smaller text for navigation links */
+}
+
+.nav-right ul li img {
+    vertical-align: middle;
+}
+
+.welcome-section {
+    background-color: #004080; /* Slightly lighter blue background */
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-section h2 {
+    color: white;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.welcome-image {
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.content-section {
+    background-color: #f7f7f7; /* Light grey background */
+    padding: 20px;
+    text-align: center;
 }
 
 main {
     flex: 1;
-    margin: 20px; /* Add margin to main content for spacing */
-    padding: 20px; /* Add padding to main content for spacing */
+    margin: 0; /* Removed margin from main */
+    padding: 0; /* Removed padding from main */
     padding-bottom: 50px; /* Extra padding at the bottom to create space above the footer */
 }
 
