@@ -21,7 +21,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 20px; /* Increase padding to make the header thicker */
     background-color: #002147; /* Oxford Blue for header */
 }
 
@@ -30,8 +30,8 @@ main {
     margin: 0;
     color: #e6e6e6; /* Light grey color */
     font-family: 'Merriweather', serif;
-    font-weight: 1400; /* Increased thickness */
-    font-size: 24px;
+    font-weight: 600; /* Increased thickness */
+    font-size: 30px;
 }
 
 
