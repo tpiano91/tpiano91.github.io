@@ -30,7 +30,7 @@ main {
     margin: 0;
     color: #e6e6e6; /* Light grey color */
     font-family: 'Merriweather', serif;
-    font-weight: 600; /* Increased thickness */
+    font-weight: 200; /* Decreased thickness */
     font-size: 30px;
 }
 
