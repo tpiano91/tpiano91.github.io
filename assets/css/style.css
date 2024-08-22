@@ -88,9 +88,9 @@ main {
     font-size: 1.5em; /* Adjust font size to match */
 }
 
-/* Dark blue section for Case Studies */
-.dark-blue-section {
-    background-color: #002147; /* Dark blue color matching the header */
+/* Light blue section for Case Studies */
+.light-blue-section {
+    background-color: #B7C9E2; /* Light Blue Background */
     color: #e6e6e6; /* Light grey text color for readability */
     padding: 20px;
     text-align: center;
