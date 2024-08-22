@@ -152,16 +152,18 @@ main {
 }
 
 .project-section img {
-    width: 50%; /* Smaller initial size */
+    width: 60%; /* Increase the size slightly from 50% to 60% */
     height: auto;
     transition: transform 0.3s ease-in-out;
     margin: 10px 0; /* Spacing between the images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for normal state */
 }
 
 .project-section img:hover {
     transform: scale(1.1); /* Slight zoom on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a more pronounced shadow on hover */
 }
+
 
 /* Footer styles */
 footer {
