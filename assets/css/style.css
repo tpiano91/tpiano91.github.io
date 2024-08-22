@@ -34,7 +34,6 @@ main {
     font-size: 26px;
 }
 
-
 .nav-right ul {
     list-style: none;
     display: flex;
@@ -89,6 +88,14 @@ main {
     font-size: 1.5em; /* Adjust font size to match */
 }
 
+/* Dark blue section for Case Studies */
+.dark-blue-section {
+    background-color: #002147; /* Dark blue color matching the header */
+    color: #e6e6e6; /* Light grey text color for readability */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px; /* Optional: keeps consistent with blue-block styling */
+}
 
 /* Slightly darker grey background for the darker content section */
 .darker-content-section {
