@@ -84,7 +84,11 @@ main {
     text-align: center;
     border-radius: 5px;
     margin: 20px 0; /* Space around the block */
+    font-family: 'Merriweather', serif; /* Same font as 'Welcome to my portfolio' */
+    font-weight: 200; /* Same font weight */
+    font-size: 1.5em; /* Adjust font size to match */
 }
+
 
 /* Slightly darker grey background for the darker content section */
 .darker-content-section {
