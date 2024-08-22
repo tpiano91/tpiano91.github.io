@@ -151,6 +151,18 @@ main {
     margin-top: auto; /* Ensure the button is at the bottom of the card */
 }
 
+.project-section img {
+    width: 50%; /* Smaller initial size */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px 0; /* Spacing between the images */
+}
+
+.project-section img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
 /* Footer styles */
 footer {
     background-color: #002147; /* Oxford Blue to match the header */
