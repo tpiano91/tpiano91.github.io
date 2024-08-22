@@ -30,9 +30,10 @@ main {
     margin: 0;
     color: #e6e6e6; /* Light grey color */
     font-family: 'Merriweather', serif;
-    font-weight: 900;
+    font-weight: 1400; /* Increased thickness */
     font-size: 24px;
 }
+
 
 .nav-right ul {
     list-style: none;
